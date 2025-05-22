@@ -290,7 +290,7 @@ const KeyboardPage: React.FC<KeyboardPageProps> = ({ locale }) => {
             <div className="mb-4">
               {/* Added margin */}
               <DownloadButton
-                href="https://apps.apple.com/cn/app/%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95-%E8%AF%AD%E9%9F%B3%E5%8F%98%E5%A3%B0%E6%96%97%E5%9B%BE%E8%A1%A8%E6%83%85/id917670924"
+                href="https://apps.apple.com/hk/app/id917670924"
                 icon={IconBrandApple}
                 text={t.sogouAppStoreButton}
                 variant="apple"
@@ -355,7 +355,7 @@ const KeyboardPage: React.FC<KeyboardPageProps> = ({ locale }) => {
             <div className="mb-4">
               <h3 className="font-semibold my-2">iOS</h3>
               <DownloadButton
-                href="https://apps.apple.com/app/id1509367629"
+                href="https://apps.apple.com/hk/app/id1509367629"
                 icon={IconBrandApple}
                 text={t.yuetyamiOSButton || ""}
                 variant="apple"
@@ -402,7 +402,7 @@ const KeyboardPage: React.FC<KeyboardPageProps> = ({ locale }) => {
             <h3 className="font-semibold my-2">iOS</h3>
             <div className="my-4">
               <DownloadButton
-                href="https://apps.apple.com/app/id1091700242"
+                href="https://apps.apple.com/hk/app/id1091700242"
                 icon={IconBrandApple}
                 text="AppStore"
                 variant="apple"
@@ -411,7 +411,7 @@ const KeyboardPage: React.FC<KeyboardPageProps> = ({ locale }) => {
             <h3 className="font-semibold my-2">Android</h3>
             <div className="my-4">
               <DownloadButton
-                href="https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_US"
+                href="https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin"
                 icon={IconBrandGooglePlay}
                 text="Google Play"
                 variant="googleplay"
@@ -475,7 +475,7 @@ const KeyboardPage: React.FC<KeyboardPageProps> = ({ locale }) => {
           <div className="flex flex-col items-center p-4 ">
             <h3 className="my-4 text-2xl font-semibold">羊羊粵語 shyyp.net</h3>
             <a
-              href="https://shyyp.net/hant"
+              href="https://shyyp.net"
               target="_blank"
               rel="noopener noreferrer"
               className="block max-w-md w-full hover:opacity-80 transition-opacity duration-200"
@@ -495,7 +495,7 @@ const KeyboardPage: React.FC<KeyboardPageProps> = ({ locale }) => {
           <div className="flex flex-col items-center p-4 ">
             <h3 className="text-2xl my-4 font-semibold">{t.googleTranslate}</h3>
             <a
-              href="https://translate.google.com/?hl=yue&sl=auto&tl=en&op=translate"
+              href="https://translate.google.com/?&sl=auto&tl=yue"
               target="_blank"
               rel="noopener noreferrer"
               className="block max-w-md w-full hover:opacity-80 transition-opacity duration-200"
@@ -562,7 +562,7 @@ const KeyboardPage: React.FC<KeyboardPageProps> = ({ locale }) => {
                   variant="chrome"
                 />
                 <DownloadButton
-                  href="https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping/"
+                  href="https://addons.mozilla.org/firefox/addon/inject-jyutping/"
                   icon={IconBrandFirefox}
                   text="Firefox Add-ons"
                   variant="firefox"
@@ -625,7 +625,7 @@ const KeyboardPage: React.FC<KeyboardPageProps> = ({ locale }) => {
           {/* 翻轉粵語教室 */}
           <div className="flex flex-col items-center p-4">
             <h3 className="my-4 text-2xl font-semibold">
-              香港理工大学 翻轉粵語教室
+              香港理工大學 翻轉粵語教室
             </h3>
             <a
               href="https://www.polyu.edu.hk/clc/cantonese/home/"
